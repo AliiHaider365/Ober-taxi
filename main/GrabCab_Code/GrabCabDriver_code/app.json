@@ -30,14 +30,14 @@
       "supportsTablet": true,
       "bundleIdentifier": "com.exicube.grabcabdriverapp",
       "infoPlist": {
-            "NSLocationAlwaysUsageDescription": "This app uses the location to find the Cabs near you.",
-            "NSLocationWhenInUseUsageDescription": "This app uses the location to find the Cabs near you.",
-            "NSCameraUsageDescription": "This app uses the camera to take your profile picture.",
-            "NSPhotoLibraryUsageDescription": "This app uses Photo Library to help upload your profile picture.",
-            "UIBackgroundModes": [
-            "location",
-            "fetch"
-            ]
+        "NSLocationAlwaysUsageDescription": "This app uses the location to find the Cabs near you.",
+        "NSLocationWhenInUseUsageDescription": "This app uses the location to find the Cabs near you.",
+        "NSCameraUsageDescription": "This app uses the camera to take your profile picture.",
+        "NSPhotoLibraryUsageDescription": "This app uses Photo Library to help upload your profile picture.",
+        "UIBackgroundModes": [
+          "location",
+          "fetch"
+        ]
       },
       "config": {
         "googleMapsApiKey": "AIzaSyADsFMcJ81gGqsW-MQWhvJl2dbxDPFac-M"

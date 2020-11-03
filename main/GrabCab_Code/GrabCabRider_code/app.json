@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Ober Rider",
+    "name": "Ober Taxi",
     "description": "We are Ober Taxi, best in Kisumu Use email Support :goldentechessays@gmail.com",
     "slug": "Ober_taxi",
     "privacy": "public",
@@ -29,7 +29,7 @@
     "ios": {
       "supportsTablet": true,
       "usesAppleSignIn":true,
-      "bundleIdentifier": "com.exicube.obertaxi",
+      "bundleIdentifier": "com.exicube.Obertaxi",
       "infoPlist": {
         "NSLocationAlwaysUsageDescription": "This app uses the location to find the Cabs near you.",
         "NSLocationWhenInUseUsageDescription": "This app uses the location to find the Cabs near you.",
@@ -45,7 +45,7 @@
       }
     },
     "android": {
-      "package": "com.exicube.grabcab",
+      "package": "com.exicube.Ober_taxi",
       "permissions": [
         "CAMERA",
         "READ_EXTERNAL_STORAGE",

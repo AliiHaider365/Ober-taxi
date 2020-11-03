@@ -1,2 +1,2 @@
-export const Currency = '$';
-export const CurrencyName = 'USD';
+export const Currency = 'kr';
+export const CurrencyName = "SEK";

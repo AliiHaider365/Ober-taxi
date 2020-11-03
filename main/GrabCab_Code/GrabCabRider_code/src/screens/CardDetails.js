@@ -470,7 +470,7 @@ export default class CardDetailsScreen extends React.Component {
             </View>
           </View>
 
-          <View style={{ flex: 1 }}>
+          {/* <View style={{ flex: 1 }}>
             <CheckBox
               center
               disabled={this.state.walletBalance > 0 ? false : true}
@@ -480,7 +480,7 @@ export default class CardDetailsScreen extends React.Component {
               onPress={() => { this.useWallet() }}>
             </CheckBox>
 
-          </View>
+          </View> */}
           {this.state.useWalletCash == true && this.state.walletBalance >= this.state.payDetails.amount ?
             <View style={styles.buttonContainer}>
               <TouchableOpacity
@@ -503,14 +503,14 @@ export default class CardDetailsScreen extends React.Component {
                 <Text style={styles.buttonTitle}>{languageJSON.pay_cash}</Text>
               </TouchableOpacity>
 
-              <TouchableOpacity
+              {/* <TouchableOpacity
                 style={styles.cardPayBtn}
                 onPress={() => {
                   this.payWithCard()
 
                 }}>
                 <Text style={styles.buttonTitle}>{languageJSON.payWithCard}</Text>
-              </TouchableOpacity>
+              </TouchableOpacity> */}
             </View>
           }
           

@@ -1,1 +1,1 @@
-export const Currency = '$';
+export const Currency = 'kr';
